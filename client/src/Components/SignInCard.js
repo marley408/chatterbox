@@ -3,7 +3,7 @@ import "../SignIn.css";
 import $ from "jquery";
 import "jquery-validation"
 
-export default class SignIn2 extends Component {
+export default class SignInCard extends Component {
 
   componentDidMount() {
     $("#signup").click(function() {
