@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import '../App.css';
+// import '../App.css';
 import SignInCard from '../Components/SignInCard';
-import Navbar from '../Components/Navbar';
 
 
 class SigninPage extends Component {

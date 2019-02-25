@@ -1,10 +1,15 @@
-/* body,html{
+body,html{
   height: 100%;
   margin: 0;
-  background: #7F7FD5;
+  /* background: #7F7FD5;
      background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
-      background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
-} */
+      background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); */
+}
+
+/* i added this to separate contentcontainer from the navbar */
+.contentcontainer{
+  margin-top: 4.2rem;
+}
 
 .chat{
   margin-top: auto;
@@ -217,6 +222,21 @@ padding-right: 10px;
 cursor: pointer;
 background-color: rgba(0,0,0,0.2);
 }
+
+/* navbar */
+.navbar-brand{
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  padding: 0;
+}
+
+.navbar{
+  background-color: rgba(0,0,0,0.5);
+  color: #28a745;
+}
+
+
+
 @media(max-width: 576px){
 .contacts_card{
 margin-bottom: 15px !important;

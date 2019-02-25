@@ -90,7 +90,7 @@ export default class SignInCard extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-md-5 mx-auto">
+          <div className="col-md-5 mx-auto loginbox">
             <div id="first">
               <div className="myform form ">
                 <div className="logo mb-3">
@@ -130,7 +130,7 @@ export default class SignInCard extends Component {
                   <div className="col-md-12 text-center ">
                     <button
                       type="submit"
-                      className=" btn btn-block mybtn btn-danger tx-tfm"
+                      className=" btn btn-block mybtn btn-success tx-tfm"
                     >
                       Login
                     </button>
@@ -215,7 +215,7 @@ export default class SignInCard extends Component {
                   <div className="col-md-12 text-center mb-3">
                     <button
                       type="submit"
-                      className=" btn btn-block mybtn btn-danger tx-tfm"
+                      className=" btn btn-block mybtn btn-success tx-tfm"
                     >
                       Sign Up!
                     </button>

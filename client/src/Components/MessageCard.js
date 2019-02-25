@@ -21,14 +21,14 @@ export default class MessageCard extends Component {
                   <span>Chat with Maryam Naz</span>
                   <p>1767 Messages</p>
                 </div>
-                <div className="video_cam">
+                {/* <div className="video_cam">
                   <span>
                     <i className="fas fa-video" />
                   </span>
                   <span>
                     <i className="fas fa-phone" />
                   </span>
-                </div>
+                </div> */}
               </div>
               <span id="action_menu_btn">
                 <i className="fas fa-ellipsis-v" />
